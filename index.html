@@ -5,21 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MEBA</title>
     <link rel="stylesheet" href="style.css">
+    <script type="module" src="script.js"></script>
 </head>
 <body>
-    <nav>
-        <image></image>
-        <button><a href="index.html">Home</a></button>
-        <button><a href="eboard.html">EBoard</a></button>
-        <button><a href="app.html">Application</a></button>
-        <button><a href="game.html">Game</a></button>
+    <nav class="navbar">
+        <img src="meba.jpg" alt="MEBA Logo" class="logo">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="eboard.html">EBoard</a></li>
+            <li><a href="app.html">Application</a></li>
+            <li><a href="game.html">Game</a></li>
+        </ul>
     </nav>
+
     <h1>Welcome to MEBA</h1>
-    <p>This is a simple HTML page for the MEBA project.</p>
     <div>
         <h2>About MEBA</h2>
-        <p>MEBA is a project that aims to provide a platform for students to engage in various activities.</p>
-        <p>For more information, please contact us.</p>
+        <p class="desc">MEBA is a project that aims to provide a platform for students to engage in various activities.</p>
+    </div>
+    <div class="mailingList">
+        <p>Join our mailing list!</p>
+        <form action="" method="POST" id="mailingList">
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+            <input type="submit" value="Subscribe">
+        </form>
     </div>
 </body>
 </html>
