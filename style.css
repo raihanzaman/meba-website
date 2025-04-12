@@ -1,12 +1,13 @@
 body {
     background-color: #572F8C75;
+    margin: 0;
 }
 
 .logo {
     
     display: block;
-    width: 75px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
+    width: 75px;
+    height: auto;
 }
 
 h1 {
@@ -21,6 +22,13 @@ h2 {
     text-align: center;
     color: black;
     font-size: 2em;
+    font: arial;
+    font-weight: bold;
+}
+
+p {
+    color: black;
+    font-size: 1.25em;
     font: arial;
     font-weight: bold;
 }
@@ -64,4 +72,41 @@ p.desc{
 
 .navbar a:hover {
     color: white;
+}
+
+.form-container {
+    border: 2px solid black;
+    display: grid;
+    place-items: center;
+}
+form label {
+    font: arial;
+    font-size: 1.5em
+}
+
+.mailing-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    place-self: center;
+    border: 2px solid black;
+    border-radius: 10%;
+    width: 50%;
+    display: grid;
+    place-items: center;
+}
+
+div#row {
+    display: flex;
+}
+div[id^="hole"] {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    background-color: grey;
+    margin-left: 10px;
+    margin-bottom: 10px
+}
+
+div.members {
 }

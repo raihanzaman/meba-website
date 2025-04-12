@@ -8,7 +8,7 @@
 </head>
 <body>
     <nav class="navbar">
-        <img src="meba.jpg" alt="MEBA Logo" class="logo">
+        <img src="images/meba.jpg" alt="MEBA Logo" class="logo">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="eboard.html">EBoard</a></li>
@@ -16,6 +16,7 @@
             <li><a href="game.html">Game</a></li>
         </ul>
     </nav>
+
     <h1>MEBA Application Form</h1>
     <div>
         <p> 
@@ -23,15 +24,23 @@
         </p>
     </div>
 
-    <form>
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name" placeholder="Name" required><br><br>
-        <label for="email">Email:</label><br>
-        <input type="text" id="name" name="name" placeholder="Email" required><br><br>
-        <label for="school">School:</label><br>
-        <input type="text" id="school" name="school" placeholder="School" required><br><br>
-        <label for="q1">Why do you want to join MEBA?:</label><br>
-        <input type="text" id="q1" name="q1" placeholder="I like pancakes" required><br><br>
-    </form>
+    <div class="form-container">
+        <form action="main.js" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Name" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="name" name="name" placeholder="Email" required><br><br>
+            <label for="school">School:</label><br>
+            <input type="text" id="school" name="school" placeholder="School" required><br><br>
+            <label for="team">Which team would you like to join?</label><br>
+            <input type="" id="team" name="team" required><br><br>
+            <label for="q1">Why do you want to join MEBA?:</label><br>
+            <input type="text" id="q1" name="q1" placeholder="I like pancakes" required><br><br>
+            <label for="resume">Resume:</label><br>
+            <input type="file" id="resume" name="resume"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    
 </body>
 </html>
