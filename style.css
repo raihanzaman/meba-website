@@ -3,6 +3,10 @@ body {
     margin: 0;
 }
 
+.hidden {
+    display: none;
+}
+
 .logo {
     
     display: block;
