@@ -3,55 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MEBA</title>
+    <title>MEBA NYU</title>
     <link rel="stylesheet" href="style.css">
     <script type="module" src="main.js"></script>
-    <script type="module" src="game.js"></script>
 </head>
 <body>
     <nav class="navbar">
         <img src="images/meba.jpg" alt="MEBA Logo" class="logo">
         <ul>
-            <li id="home"><a href="">Home</a></li>
-            <li id="eboard"><a href="">EBoard</a></li>
-            <li id="application"><a href="">Application</a></li>
-            <li id="game"><a href="">Game</a></li>
+            <li id="home"><a href=""><b>Home</b></a></li>
+            <li id="eboard"><a href=""><b>Eboard</b></a></li>
+            <li id="application"><a href=""><b>Application</b></a></li>
+
         </ul>
     </nav>
     <div id="home">
-        <h1>Welcome to MEBA</h1>
+        <h1 id="Home">Middle East Business Association</h1>
         <div class="about">
-            <h2>About MEBA</h2>
-            <p class="desc">MEBA is a goated club you should definitely join.</p>
+            <p class="description">
+                MEBA is a Stern club that teaches students about business.
+            </p>
         </div>
     
         <div class="mailing-list">
-            <p>Join our mailing list!</p>
-            <form id="mailing-list">
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
-                <input type="submit" value="Subscribe">
-            </form>
+            <button>OUR MAILING LIST</button>
         </div>
+
         <div class="events">
 
-        </div>
-    </div>
-    <div id="game" class="hidden">
-        <h1>Wack-a-mole</h1>
-        <div class="game-container">
-            <h2>Game Instructions</h2>
-            <p>Click on the moles as they pop up to score points!</p>
-            <div class="score-board">
-                <button id="start-button">Start Game</button>
-            </div>
-            <h3>Score: <span id="score">0</span></h3>
-            <div id="game-board">
-                <div id="row"><div id="hole1"></div><div id="hole2"></div><div id="hole3"></div><div id="hole4"></div></div>
-                <div id="row"><div id="hole5"></div><div id="hole6"></div><div id="hole7"></div><div id="hole8"></div></div>
-                <div id="row"><div id="hole9"></div><div id="hole10"></div><div id="hole11"></div><div id="hole12"></div></div>
-                <div id="row"><div id="hole13"></div><div id="hole14"></div><div id="hole15"></div><div id="hole16"></div></div>
-            </div>
         </div>
     </div>
     <div id="eboard" class="hidden"> 
@@ -85,7 +64,7 @@
                 <label for="team">Which team would you like to join?</label><br>
                 <input type="" id="team" name="team" required><br><br>
                 <label for="q1">Why do you want to join MEBA?:</label><br>
-                <input type="text" id="q1" name="q1" placeholder="I like pancakes" required><br><br>
+                <input type="text" id="q1" name="q1" required><br><br>
                 <label for="resume">Resume:</label><br>
                 <input type="file" id="resume" name="resume"><br><br>
                 <input type="submit" value="Submit">

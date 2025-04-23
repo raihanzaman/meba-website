@@ -1,5 +1,5 @@
 body {
-    background-color: #572F8C75;
+    background-color: #9c7cc575;
     margin: 0;
 }
 
@@ -10,16 +10,16 @@ body {
 .logo {
     
     display: block;
-    width: 75px;
+    width: 65px;
     height: auto;
+    margin: 40px
 }
 
-h1 {
+h1#Home {
     text-align: center;
     color: black;
-    font-size: 3em;
-    font: arial;
-    font-weight: bold;
+    font-size: 2.75em;
+    font-family: Arial
 }
 
 h2 {
@@ -37,7 +37,7 @@ p {
     font-weight: bold;
 }
 
-p.desc{
+p.description{
     text-align: center;
     color: black;
     font-size: 1.5em;
@@ -48,9 +48,9 @@ p.desc{
 .navbar {
     display: flex;
     width: 100%;
-    height: 75px;
+    height: 65px;
     align-items: center;
-    background-color: #572F8C60;
+    background-color: #bda6dd8f;
     margin: 0;
     padding: 0;
     justify-content: space-between;
@@ -67,15 +67,18 @@ p.desc{
 .navbar a {
     text-decoration: none;
     color: #572F8C;
-    font-size: 1.2em;
-    padding: 10px 20px;
-    border-radius: 5px;
-    transition: background-color 0.3s, color 0.3s;
-    margin: 0 10px;
+    font-size: 1.175em;
+    padding: 20px;
+    transition: color 0.3s;
 }
 
 .navbar a:hover {
     color: white;
+}
+
+nav li {
+    font-size: 1.2em
+    
 }
 
 .form-container {
@@ -89,27 +92,16 @@ form label {
 }
 
 .mailing-list {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     place-self: center;
-    border: 2px solid black;
-    border-radius: 10%;
-    width: 50%;
-    display: grid;
-    place-items: center;
 }
 
-div#row {
-    display: flex;
-}
-div[id^="hole"] {
-    border: 1px solid black;
-    width: 50px;
-    height: 50px;
-    background-color: grey;
-    margin-left: 10px;
-    margin-bottom: 10px
+.mailing-list button {
+    font-size: 1.05em;
+    color: white;
+    background-color: #64389c;
+    border-radius: 8px;
+    border-color: transparent;
+    padding: 14px 20px
 }
 
 div.members {
