@@ -1,82 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MEBA NYU</title>
-    <link rel="stylesheet" href="style.css">
-    <script type="module" src="main.js"></script>
-</head>
-<body>
-    <nav class="navbar">
-        <img src="images/meba.jpg" alt="MEBA Logo" class="logo">
-        <ul>
-            <li id="home"><a href=""><b>Home</b></a></li>
-            <li id="eboard"><a href=""><b>Eboard</b></a></li>
-            <li id="application"><a href=""><b>Application</b></a></li>
-
-        </ul>
-    </nav>
-    <div id="home">
-        <h1 id="Home">Middle East Business Association</h1>
-        <div class="about">
-            <p class="description">
-                MEBA is a Stern club that teaches students about business.
-            </p>
-        </div>
-    
-        <div class="mailing-list">
-            <button>OUR MAILING LIST</button>
-            
-            <p>Join our mailing list!</p>
-            <form id="mailing-list">
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
-                <input type="submit" value="Subscribe">
-            </form>
-        </div>
-
-        <div class="events">
-
-        </div>
-    </div>
-    <div id="eboard" class="hidden"> 
-        <h1>MEBA Eboard</h1>
-        <p>This is the Eboard page for MEBA.</p>
-        <p>Here you can find information about the executive board members.</p> 
-        <div class="members">
-            <h2>Executive Board Members</h2> 
-            <div class="member">
-                <h3>Rami Awad</h3>
-                <img src="images/awad.jpg">
-            </div>
-        </div>
-        <p>For more details, please contact us.</p> 
-    </div>
-    <div id="application" class="hidden">
-        <h1>MEBA Application Form</h1>
-        <div>
-            <p> 
-                Are you interested in applying to our various mentorship programs? Fill out the form below to get started!
-            </p>
-        </div>
-        <div class="form-container">
-            <form action="main.js" method="post">
-                <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name" placeholder="Name" required><br><br>
-                <label for="email">Email:</label><br>
-                <input type="text" id="name" name="name" placeholder="Email" required><br><br>
-                <label for="school">School:</label><br>
-                <input type="text" id="school" name="school" placeholder="School" required><br><br>
-                <label for="team">Which team would you like to join?</label><br>
-                <input type="" id="team" name="team" required><br><br>
-                <label for="q1">Why do you want to join MEBA?:</label><br>
-                <input type="text" id="q1" name="q1" required><br><br>
-                <label for="resume">Resume:</label><br>
-                <input type="file" id="resume" name="resume"><br><br>
-                <input type="submit" value="Submit">
-            </form>
-        </div>
-    </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MEBA</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>

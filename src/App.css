@@ -64,7 +64,7 @@ p.description{
     overflow: hidden
 }
 
-.navbar a {
+.navbar li {
     text-decoration: none;
     color: #572F8C;
     font-size: 1.175em;
@@ -102,7 +102,4 @@ form label {
     border-radius: 8px;
     border-color: transparent;
     padding: 14px 20px
-}
-
-div.members {
 }
