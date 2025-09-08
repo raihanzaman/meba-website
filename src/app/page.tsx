@@ -11,9 +11,8 @@ export default function Home() {
           </h1>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                Random text Random text Random text Random text Random text Random text 
-                Random text Random text Random text Random text Random text 
+              <p className="text-lg text-black mb-8 leading-relaxed">
+                Welcome to the Middle East Business Association (MEBA) at NYU! We explore enterprise and capital markets in the emerging Middle East, promoting a better understanding of the region and fostering a community of like-minded individuals within Stern and the broader NYU community. 
               </p>
             </div>
             <div className="grid grid-cols-2 gap-4">
@@ -29,17 +28,13 @@ export default function Home() {
 
       <div className="bg-gray-100 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-4xl font-bold text-gray-900 mb-6">Upcoming Events</h2>
-              <p className="text-lg text-gray-600 mb-6">
-                MEBA general meetings and programs welcome all NYU students. We meet 
-                weekly on Thursdays at 7:00 PM.
-              </p>
-              <div className="bg-gray-50 rounded-lg p-6">
-                <h4 className="font-semibold text-gray-900 mb-2">General Meeting</h4>
-                <p className="text-gray-600">Thursday, September 5th at 7:00 PM</p>
-                <p className="text-sm text-gray-500">Topic: Fintech Innovation in the Gulf States</p>
+          <div className="flex justify-center">
+            <div className="w-full max-w-xl">
+              <h2 className="text-4xl font-bold text-gray-900 mb-6 text-center">Upcoming Events</h2>
+              <div className="bg-gray-50 rounded-lg p-6 text-center">
+                <h4 className="font-bold text-gray-900 mb-2">General Meeting</h4>
+                <p className="text-sm text-gray-500">Introduction to MEBA</p>
+                <p className="text-gray-600">Date: TBD</p>
               </div>
             </div>
           </div>
