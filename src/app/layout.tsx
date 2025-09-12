@@ -17,7 +17,12 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Middle East Business Association",
-  description: "",
+  description: "MEBA at NYU - Exploring enterprise and capital markets in the emerging Middle East",
+  icons: {
+    icon: '/meba.jpg',
+    shortcut: '/meba.jpg',
+    apple: '/meba.jpg',
+  },
 };
 
 export default function RootLayout({

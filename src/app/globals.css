@@ -3,6 +3,18 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  
+  /* MEBA Brand Colors - Dark Green & Cream Theme */
+  --meba-primary: #1a4d3a;      /* Dark Forest Green */
+  --meba-secondary: #2d5a47;    /* Medium Green */
+  --meba-accent: #f5f1e8;       /* Cream */
+  --meba-gold: #d4af37;         /* Gold Accent */
+  --meba-dark: #0f2e1f;         /* Darker Green */
+  --meba-light: #faf9f7;        /* Light Cream Background */
+  --meba-gray: #6b7280;         /* Medium Gray */
+  --meba-light-gray: #f0ede7;   /* Light Cream Gray */
+  --meba-text: #2c3e2d;         /* Dark Green Text */
+  --meba-text-light: #4a5d4b;   /* Medium Green Text */
 }
 
 @theme inline {
@@ -10,6 +22,18 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  
+  /* MEBA Color Variables */
+  --color-meba-primary: var(--meba-primary);
+  --color-meba-secondary: var(--meba-secondary);
+  --color-meba-accent: var(--meba-accent);
+  --color-meba-gold: var(--meba-gold);
+  --color-meba-dark: var(--meba-dark);
+  --color-meba-light: var(--meba-light);
+  --color-meba-gray: var(--meba-gray);
+  --color-meba-light-gray: var(--meba-light-gray);
+  --color-meba-text: var(--meba-text);
+  --color-meba-text-light: var(--meba-text-light);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,4 +41,37 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+}
+
+/* Custom MEBA Styles */
+.meba-gradient {
+  background: linear-gradient(135deg, var(--meba-primary) 0%, var(--meba-secondary) 50%, var(--meba-accent) 100%);
+}
+
+.meba-gradient-reverse {
+  background: linear-gradient(135deg, var(--meba-accent) 0%, var(--meba-secondary) 50%, var(--meba-primary) 100%);
+}
+
+.meba-gradient-green {
+  background: linear-gradient(135deg, var(--meba-primary) 0%, var(--meba-secondary) 100%);
+}
+
+.meba-card {
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+}
+
+.meba-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.meba-section {
+  padding: 4rem 0;
+}
+
+.meba-section-alt {
+  background-color: var(--meba-light-gray);
 }
