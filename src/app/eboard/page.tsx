@@ -10,8 +10,8 @@ export default function eboard() {
             MEBA <span className="text-[#d4af37]">E-Board</span>
           </h1>
           <p className="text-xl text-white/90 max-w-3xl mx-auto leading-relaxed">
-            Meet the dedicated leaders who drive MEBA's mission to explore and understand 
-            Middle Eastern business markets at NYU.
+            {`Meet the dedicated leaders who drive MEBA's mission to explore and understand 
+            Middle Eastern business markets at NYU.`}
           </p>
         </div>
       </section>
