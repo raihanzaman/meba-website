@@ -1,3 +1,4 @@
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -35,11 +36,7 @@ export default function Home() {
             <div className="relative">
               <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
                 <div className="aspect-square bg-gradient-to-br from-[#d4af37] to-[#2d5a47] rounded-xl flex items-center justify-center">
-                  <div className="text-center text-[#1a4d3a]">
-                    <div className="text-6xl mb-4">🌍</div>
-                    <p className="font-semibold text-lg">MEBA Logo</p>
-                    <p className="text-sm opacity-75">Connecting Cultures</p>
-                  </div>
+                  <Image src="/nyu-stern.jpg" alt="MEBA Logo" width={1000} height={1000} />
                 </div>
               </div>
             </div>

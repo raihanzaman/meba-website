@@ -1,3 +1,4 @@
+import Image from "next/image";
 
 export default function Programs() {
     return (
@@ -58,11 +59,7 @@ export default function Programs() {
                         <div className="order-1 lg:order-2">
                             <div className="meba-card p-8">
                                 <div className="aspect-video bg-gradient-to-br from-[#d4af37] to-[#2d5a47] rounded-xl flex items-center justify-center mb-6">
-                                    <div className="text-center text-[#1a4d3a]">
-                                        <div className="text-6xl mb-4">📊</div>
-                                        <p className="font-semibold text-lg">Investment Analysis</p>
-                                        <p className="text-sm opacity-75">Market Research & Strategy</p>
-                                    </div>
+                                    <Image src="/middle-east.jpg" alt="MEBA Logo" width={1300} height={867} />
                                 </div>
                             </div>
                         </div>
@@ -71,7 +68,7 @@ export default function Programs() {
             </section>
 
             {/* Additional Programs */}
-            <section className="meba-section-alt">
+            <section className="meba-section-alt p-10">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-16">
                         <h2 className="text-4xl font-bold text-[#1a4d3a] mb-6">Additional Programs</h2>
