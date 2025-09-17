@@ -4,15 +4,23 @@ export default function eboard() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="meba-gradient p-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section className="meba-gradient py-16 px-4 sm:px-6">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center justify-center min-h-[200px]">
           <h1 className="text-5xl lg:text-6xl font-bold text-white mb-6">
             MEBA <span className="text-[#d4af37]">E-Board</span>
           </h1>
-          <p className="text-xl text-white/90 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl text-white/90 max-w-3xl mx-auto leading-relaxed mb-6">
             {`Meet the dedicated leaders who drive MEBA's mission to explore and understand 
             Middle Eastern business markets at NYU.`}
           </p>
+          <a 
+            href="https://forms.gle/x6EfjSFPr5tTtgAEA"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-[#d4af37] text-[#1a4d3a] font-semibold px-8 py-4 rounded-lg hover:bg-[#d4af37] transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1 text-center inline-block"
+          >
+            Coffee Chat Us!
+          </a>
         </div>
       </section>
 

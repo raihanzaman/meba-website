@@ -36,7 +36,7 @@ export default function Home() {
             <div className="relative">
               <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
                 <div className="aspect-square bg-gradient-to-br from-[#d4af37] to-[#2d5a47] rounded-xl flex items-center justify-center">
-                  <Image src="/nyu-stern.jpg" alt="MEBA Logo" width={2500} height={1700} />
+                  
                 </div>
               </div>
             </div>
