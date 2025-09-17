@@ -4,7 +4,7 @@ export default function eboard() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="meba-gradient py-20">
+      <section className="meba-gradient p-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl lg:text-6xl font-bold text-white mb-6">
             MEBA <span className="text-[#d4af37]">E-Board</span>
@@ -40,14 +40,14 @@ export default function eboard() {
               imageSrc="/raihan.jpg"
             />
             <Card
-              name="Jacob Shamoun"
+              name="Bryce Clancy"
               title="Director of Marketing"
-              imageSrc="/jacob.jpg"
+              imageSrc="/bryce.jpg"
             />
             <Card
-              name="Asim Abdullah"
+              name="Toan Cao"
               title="Director of Marketing"
-              imageSrc="/asim.jpg"
+              imageSrc="/toan.jpg"
             />
             <Card
               name="Saami Ali"
@@ -56,55 +56,14 @@ export default function eboard() {
             />
             <Card
               name="Senna Abraham"
-              title="Events Director"
+              title="Director of Events"
               imageSrc="/senna.jpg"
             />
             <Card
-              name="Rami Awad"
-              title="Events Director"
-              imageSrc="/rami.jpg"
+              name="Asim Abdullah"
+              title="Senior Advisor"
+              imageSrc="/asim.jpg"
             />
-          </div>
-        </div>
-      </section>
-
-      {/* Mission Section */}
-      <section className="meba-section-alt p-10">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <div>
-              <h2 className="text-4xl font-bold text-[#1a4d3a] mb-6">Our Mission</h2>
-              <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                The MEBA E-Board is dedicated to creating meaningful connections between 
-                NYU students and the dynamic business landscape of the Middle East. We 
-                organize events, facilitate networking, and provide educational opportunities 
-                that bridge cultures and markets.
-              </p>
-              <div className="space-y-4">
-                <div className="flex items-start space-x-3">
-                  <div className="w-6 h-6 bg-[#d4af37] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <span className="text-[#1a4d3a] text-sm font-bold">✓</span>
-                  </div>
-                  <p className="text-gray-600">Organize educational workshops and speaker events</p>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <div className="w-6 h-6 bg-[#d4af37] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <span className="text-[#1a4d3a] text-sm font-bold">✓</span>
-                  </div>
-                  <p className="text-gray-600">Facilitate networking with industry professionals</p>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <div className="w-6 h-6 bg-[#d4af37] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <span className="text-[#1a4d3a] text-sm font-bold">✓</span>
-                  </div>
-                  <p className="text-gray-600">Promote cultural understanding and exchange</p>
-                </div>
-              </div>
-            </div>
-            <div className="relative">
-              <div className="bg-gradient-to-br from-[#d4af37] to-[#2d5a47] rounded-2xl p-8 text-center">
-              </div>
-            </div>
           </div>
         </div>
       </section>

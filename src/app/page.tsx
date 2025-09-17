@@ -9,11 +9,11 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-8">
               <div className="space-y-4">
-                <h1 className="text-5xl lg:text-6xl font-bold text-white leading-tight">
+                <h1 className="text-5xl lg:text-7xl font-bold text-white leading-tight font-serif">
                   Middle East
-                  <span className="block text-[#d4af37]">Business Association</span>
+                  <span className="block text-[#d4af37] font-serif">Business Association</span>
                 </h1>
-                <p className="text-xl text-white/90 leading-relaxed">
+                <p className="text-xl text-white/90 leading-relaxed font-garamond">
                   Exploring enterprise and capital markets in the emerging Middle East, 
                   fostering a community of like-minded individuals at NYU.
                 </p>
@@ -36,7 +36,7 @@ export default function Home() {
             <div className="relative">
               <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
                 <div className="aspect-square bg-gradient-to-br from-[#d4af37] to-[#2d5a47] rounded-xl flex items-center justify-center">
-                  <Image src="/nyu-stern.jpg" alt="MEBA Logo" width={1000} height={1000} />
+                  <Image src="/nyu-stern.jpg" alt="MEBA Logo" width={2500} height={1700} />
                 </div>
               </div>
             </div>
@@ -103,29 +103,29 @@ export default function Home() {
             <div className="meba-card p-6">
               <div className="flex items-center mb-4">
                 <div className="w-12 h-12 bg-[#d4af37] rounded-lg flex items-center justify-center mr-4">
-                  <span className="text-[#1a4d3a] font-bold">5</span>
+                  <span className="text-[#1a4d3a] font-bold">18</span>
                 </div>
                 <div>
                   <p className="text-sm text-[#2d5a47] font-medium">September</p>
                   <p className="text-lg font-bold text-[#1a4d3a]">General Meeting</p>
                 </div>
               </div>
-              <h3 className="font-semibold text-[#1a4d3a] mb-2">Fintech Innovation in the Gulf States</h3>
-              <p className="text-gray-600 text-sm mb-4">Thursday, September 5th at 7:00 PM</p>
+              <h3 className="font-semibold text-[#1a4d3a] mb-2">Introduction to MEBA & E-Board</h3>
+              <p className="text-gray-600 text-sm mb-4">12:30 PM at UC-19</p>
             </div>
             
             <div className="meba-card p-6">
               <div className="flex items-center mb-4">
                 <div className="w-12 h-12 bg-[#d4af37] rounded-lg flex items-center justify-center mr-4">
-                  <span className="text-[#1a4d3a] font-bold">12</span>
+                  <span className="text-[#1a4d3a] font-bold">24</span>
                 </div>
                 <div>
                   <p className="text-sm text-[#2d5a47] font-medium">September</p>
-                  <p className="text-lg font-bold text-[#1a4d3a]">Workshop</p>
+                  <p className="text-lg font-bold text-[#1a4d3a]">Info Session</p>
                 </div>
               </div>
-              <h3 className="font-semibold text-[#1a4d3a] mb-2">Investment Strategies in MENA</h3>
-              <p className="text-gray-600 text-sm mb-4">Thursday, September 12th at 6:30 PM</p>
+              <h3 className="font-semibold text-[#1a4d3a] mb-2">Overview of the Investment Team</h3>
+              <p className="text-gray-600 text-sm mb-4">12:30 PM at LC-21</p>
             </div>
           </div>
         </div>

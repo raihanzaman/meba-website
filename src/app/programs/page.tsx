@@ -87,9 +87,6 @@ export default function Programs() {
                                 Interactive sessions covering Middle Eastern business practices, 
                                 cultural insights, and market dynamics.
                             </p>
-                            <a href="#" className="text-[#2d5a47] font-medium hover:text-[#1a4d3a] transition-colors">
-                                View Schedule →
-                            </a>
                         </div>
                         
                         <div className="meba-card p-8 text-center">
@@ -101,9 +98,6 @@ export default function Programs() {
                                 Connect with industry professionals, alumni, and fellow students 
                                 interested in Middle Eastern markets.
                             </p>
-                            <a href="#" className="text-[#2d5a47] font-medium hover:text-[#1a4d3a] transition-colors">
-                                Join Events →
-                            </a>
                         </div>
                         
                         <div className="meba-card p-8 text-center">
@@ -115,37 +109,7 @@ export default function Programs() {
                                 Immersive experiences that promote understanding and appreciation 
                                 of Middle Eastern cultures and traditions.
                             </p>
-                            <a href="#" className="text-[#2d5a47] font-medium hover:text-[#1a4d3a] transition-colors">
-                                Explore Programs →
-                            </a>
                         </div>
-                    </div>
-                </div>
-            </section>
-
-            {/* CTA Section */}
-            <section className="meba-gradient py-20">
-                <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-                    <h2 className="text-4xl font-bold text-white mb-6">Ready to Get Started?</h2>
-                    <p className="text-xl text-white/90 mb-8">
-                        Join our programs and become part of the MEBA community. 
-                        Applications are open for the current semester.
-                    </p>
-                    <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                        <a 
-                            href="https://mailchi.mp/stern/meba-newsletter-signup-form"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="bg-white text-[#1a4d3a] font-semibold px-8 py-4 rounded-lg hover:bg-[#d4af37] transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1"
-                        >
-                            Apply Now
-                        </a>
-                        <a 
-                            href="/eboard"
-                            className="border-2 border-white text-white font-semibold px-8 py-4 rounded-lg hover:bg-white hover:text-[#1a4d3a] transition-all duration-300"
-                        >
-                            Contact Team
-                        </a>
                     </div>
                 </div>
             </section>

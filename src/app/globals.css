@@ -20,8 +20,8 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-garamond: var(--font-garamond);
+  --font-inter: var(--font-inter);
   
   /* MEBA Color Variables */
   --color-meba-primary: var(--meba-primary);

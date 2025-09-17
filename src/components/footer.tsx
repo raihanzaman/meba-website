@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { FaInstagram, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaInstagram, FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -19,7 +19,7 @@ export default function Footer() {
               <span className="font-bold text-xl text-[#d4af37]">MEBA</span>
             </div>
             <p className="text-[#f5f1e8]/80 text-sm leading-relaxed">
-              Middle East Business Association at NYU - Exploring enterprise and capital markets in the emerging Middle East.
+              Middle East Business Association at NYU
             </p>
           </div>
 
@@ -65,13 +65,6 @@ export default function Footer() {
                 className="bg-white/10 hover:bg-[#d4af37] hover:text-[#1a4d3a] transition-all duration-300 p-3 rounded-lg"
               >
                 <FaLinkedin className="text-xl" />
-              </a>
-              <a
-                href="mailto:meba@stern.nyu.edu"
-                aria-label="Email"
-                className="bg-white/10 hover:bg-[#d4af37] hover:text-[#1a4d3a] transition-all duration-300 p-3 rounded-lg"
-              >
-                <FaEnvelope className="text-xl" />
               </a>
             </div>
           </div>
