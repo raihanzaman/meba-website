@@ -6,10 +6,10 @@ export default function eboard() {
       {/* Hero Section */}
       <section className="meba-gradient py-16 px-4 sm:px-6">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center justify-center min-h-[200px]">
-          <h1 className="text-5xl lg:text-6xl font-bold text-white mb-6">
-            MEBA <span className="text-[#d4af37]">E-Board</span>
+          <h1 className="text-5xl lg:text-6xl font-bold text-white mb-6 font-serif">
+            MEBA <span className="text-[#d4af37] font-serif">E-Board</span>
           </h1>
-          <p className="text-xl text-white/90 max-w-3xl mx-auto leading-relaxed mb-6">
+          <p className="text-xl text-white/90 max-w-3xl mx-auto leading-relaxed mb-6 font-garamond">
             {`Meet the dedicated leaders who drive MEBA's mission to explore and understand 
             Middle Eastern business markets at NYU.`}
           </p>
@@ -69,8 +69,13 @@ export default function eboard() {
             />
             <Card
               name="Asim Abdullah"
-              title="Senior Advisor"
+              title="Director of Events"
               imageSrc="/asim.jpg"
+            />
+            <Card
+              name="Humza Anwar"
+              title="Senior Advisor"
+              imageSrc="/humza.jpg"
             />
           </div>
         </div>

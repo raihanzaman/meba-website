@@ -6,10 +6,10 @@ export default function Programs() {
             {/* Hero Section */}
             <section className="meba-gradient py-20">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-                    <h1 className="text-5xl lg:text-6xl font-bold text-white mb-6">
-                        MEBA <span className="text-[#d4af37]">Programs</span>
+                    <h1 className="text-5xl lg:text-6xl font-bold text-white mb-6 font-serif">
+                        MEBA <span className="text-[#d4af37] font-serif">Programs</span>
                     </h1>
-                    <p className="text-xl text-white/90 max-w-3xl mx-auto leading-relaxed">
+                    <p className="text-xl text-white/90 max-w-3xl mx-auto leading-relaxed font-garamond">
                         Discover our comprehensive programs designed to deepen your understanding 
                         of Middle Eastern business markets and investment opportunities.
                     </p>
@@ -29,7 +29,7 @@ export default function Programs() {
                             <h2 className="text-4xl font-bold text-[#1a4d3a] mb-6">
                                 Investment Analysis Program
                             </h2>
-                            <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+                            <p className="text-lg text-gray-600 mb-8 leading-relaxed font-garamond">
                                 Our investment team covers all asset classes in the Middle Eastern markets, 
                                 providing unique opportunities for learning and growth. Members gain hands-on 
                                 experience analyzing regional markets, understanding cultural nuances, and 
@@ -40,19 +40,19 @@ export default function Programs() {
                                     <div className="w-6 h-6 bg-[#d4af37] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                                         <span className="text-[#1a4d3a] text-sm font-bold">✓</span>
                                     </div>
-                                    <p className="text-gray-600">Real-time market analysis and research</p>
+                                    <p className="text-lg text-gray-600 font-garamond">Real-time market analysis and research</p>
                                 </div>
                                 <div className="flex items-start space-x-3">
                                     <div className="w-6 h-6 bg-[#d4af37] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                                         <span className="text-[#1a4d3a] text-sm font-bold">✓</span>
                                     </div>
-                                    <p className="text-gray-600">Portfolio management and strategy development</p>
+                                    <p className="text-lg text-gray-600 font-garamond">Portfolio management and strategy development</p>
                                 </div>
                                 <div className="flex items-start space-x-3">
                                     <div className="w-6 h-6 bg-[#d4af37] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                                         <span className="text-[#1a4d3a] text-sm font-bold">✓</span>
                                     </div>
-                                    <p className="text-gray-600">Industry expert mentorship and networking</p>
+                                    <p className="text-lg text-gray-600 font-garamond">Industry expert mentorship and networking</p>
                                 </div>
                             </div>
                         </div>
@@ -72,7 +72,7 @@ export default function Programs() {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-16">
                         <h2 className="text-4xl font-bold text-[#1a4d3a] mb-6">Additional Programs</h2>
-                        <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+                        <p className="text-2xl text-gray-600 max-w-2xl mx-auto font-garamond">
                             Explore our diverse range of educational and networking programs.
                         </p>
                     </div>
@@ -83,7 +83,7 @@ export default function Programs() {
                                 <span className="text-2xl">🎓</span>
                             </div>
                             <h3 className="text-xl font-bold text-[#1a4d3a] mb-4">Educational Workshops</h3>
-                            <p className="text-gray-600 mb-6">
+                            <p className="text-gray-600 mb-6 font-garamond text-lg">
                                 Interactive sessions covering Middle Eastern business practices, 
                                 cultural insights, and market dynamics.
                             </p>
@@ -94,7 +94,7 @@ export default function Programs() {
                                 <span className="text-2xl">🤝</span>
                             </div>
                             <h3 className="text-xl font-bold text-[#1a4d3a] mb-4">Networking Events</h3>
-                            <p className="text-gray-600 mb-6">
+                            <p className="text-gray-600 mb-6 font-garamond text-lg">
                                 Connect with industry professionals, alumni, and fellow students 
                                 interested in Middle Eastern markets.
                             </p>
@@ -104,10 +104,9 @@ export default function Programs() {
                             <div className="w-16 h-16 bg-gradient-to-br from-[#d4af37] to-[#2d5a47] rounded-full flex items-center justify-center mx-auto mb-6">
                                 <span className="text-2xl">🌍</span>
                             </div>
-                            <h3 className="text-xl font-bold text-[#1a4d3a] mb-4">Cultural Exchange</h3>
-                            <p className="text-gray-600 mb-6">
-                                Immersive experiences that promote understanding and appreciation 
-                                of Middle Eastern cultures and traditions.
+                            <h3 className="text-xl font-bold text-[#1a4d3a] mb-4">Social Events</h3>
+                            <p className="text-gray-600 mb-6 font-garamond text-lg">
+                                Enjoy fun social gatherings and activities designed to help you connect with fellow MEBA members and build lasting friendships within our community.
                             </p>
                         </div>
                     </div>

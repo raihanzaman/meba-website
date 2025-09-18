@@ -26,17 +26,19 @@ export default function Home() {
                   Explore Programs
                 </a>
                 <a 
-                  href="/eboard" 
+                  href="https://forms.gle/x6EfjSFPr5tTtgAEA"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="border-2 border-white text-white font-semibold px-8 py-4 rounded-lg hover:bg-white hover:text-[#1a4d3a] transition-all duration-300 text-center"
                 >
-                  Meet Our Team
+                  Coffee Chat Form
                 </a>
               </div>
             </div>
             <div className="relative">
               <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
                 <div className="aspect-square bg-gradient-to-br from-[#d4af37] to-[#2d5a47] rounded-xl flex items-center justify-center">
-                  
+                  <Image src="/meba-full.jpg" alt="MEBA Logo" width={2560} height={1707} />
                 </div>
               </div>
             </div>
@@ -49,7 +51,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-[#1a4d3a] mb-6">About MEBA</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed font-garamond">
               We promote a better understanding of the Middle East region through 
               business education, networking, and cultural exchange within the NYU community.
             </p>
@@ -61,7 +63,7 @@ export default function Home() {
                 <span className="text-2xl">📈</span>
               </div>
               <h3 className="text-xl font-bold text-[#1a4d3a] mb-4">Market Analysis</h3>
-              <p className="text-gray-600">
+              <p className="text-gray-600 font-garamond text-lg">
                 Deep dive into Middle Eastern capital markets and emerging business opportunities.
               </p>
             </div>
@@ -71,7 +73,7 @@ export default function Home() {
                 <span className="text-2xl">🤝</span>
               </div>
               <h3 className="text-xl font-bold text-[#1a4d3a] mb-4">Networking</h3>
-              <p className="text-gray-600">
+              <p className="text-gray-600 font-garamond text-lg">
                 Connect with industry professionals and fellow students interested in the region.
               </p>
             </div>
@@ -81,7 +83,7 @@ export default function Home() {
                 <span className="text-2xl">🎓</span>
               </div>
               <h3 className="text-xl font-bold text-[#1a4d3a] mb-4">Education</h3>
-              <p className="text-gray-600">
+              <p className="text-gray-600 font-garamond text-lg">
                 Learn about cultural nuances and business practices in Middle Eastern markets.
               </p>
             </div>
@@ -94,7 +96,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-white mb-6">Upcoming Events</h2>
-            <p className="text-xl text-white max-w-2xl mx-auto">
+            <p className="text-2xl text-white max-w-2xl mx-auto font-garamond">
               Join us for exciting events, workshops, and networking opportunities.
             </p>
           </div>
@@ -134,7 +136,7 @@ export default function Home() {
       <section className="meba-section bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold text-[#1a4d3a] mb-6">Ready to Join MEBA?</h2>
-          <p className="text-xl text-gray-600 mb-10">
+          <p className="text-xl text-gray-600 mb-10 font-garamond">
             Stay updated with our latest events and opportunities by joining our newsletter.
           </p>
           <a 
