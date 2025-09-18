@@ -30,36 +30,35 @@ export default function Programs() {
                                 Investment Analysis Program
                             </h2>
                             <p className="text-lg text-gray-600 mb-8 leading-relaxed font-garamond">
-                                Our investment team covers all asset classes in the Middle Eastern markets, 
-                                providing unique opportunities for learning and growth. Members gain hands-on 
-                                experience analyzing regional markets, understanding cultural nuances, and 
-                                developing investment strategies.
+                            The Investment Team Program offers a structured, hands-on experience in finance and Middle Eastern markets through eight weeks of interactive workshops, guest-led discussions, and practical assignments. Covering topics such as business and finance careers, networking, accounting, valuation, economics, and fixed income/derivatives, members complete curated readings and case-based deliverables. These include
+                            DCF models, comparative analyses, and trading strategy pitches—while developing technical skills, industry knowledge, and regional market insights.
+                            <br /><br /> Applications open Sunday, September 21.
                             </p>
                             <div className="space-y-4">
                                 <div className="flex items-start space-x-3">
                                     <div className="w-6 h-6 bg-[#d4af37] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                                         <span className="text-[#1a4d3a] text-sm font-bold">✓</span>
                                     </div>
-                                    <p className="text-lg text-gray-600 font-garamond">Real-time market analysis and research</p>
+                                    <p className="text-lg text-gray-600 font-garamond">Gain exposure to real-world market analysis and regional industry insights</p>
                                 </div>
                                 <div className="flex items-start space-x-3">
                                     <div className="w-6 h-6 bg-[#d4af37] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                                         <span className="text-[#1a4d3a] text-sm font-bold">✓</span>
                                     </div>
-                                    <p className="text-lg text-gray-600 font-garamond">Portfolio management and strategy development</p>
+                                    <p className="text-lg text-gray-600 font-garamond">Build technical expertise in valuation, accounting, and financial modeling</p>
                                 </div>
                                 <div className="flex items-start space-x-3">
                                     <div className="w-6 h-6 bg-[#d4af37] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                                         <span className="text-[#1a4d3a] text-sm font-bold">✓</span>
                                     </div>
-                                    <p className="text-lg text-gray-600 font-garamond">Industry expert mentorship and networking</p>
+                                    <p className="text-lg text-gray-600 font-garamond">Develop and pitch investment strategies across multiple asset classes</p>
                                 </div>
                             </div>
                         </div>
                         <div className="order-1 lg:order-2">
                             <div className="meba-card p-8">
                                 <div className="aspect-video bg-gradient-to-br from-[#d4af37] to-[#2d5a47] rounded-xl flex items-center justify-center mb-6">
-                                    <Image src="/middle-east.jpg" alt="MEBA Logo" width={1300} height={867} />
+                                    <Image src="/middle-east3.jpg" alt="MEBA Logo" width={1300} height={867} />
                                 </div>
                             </div>
                         </div>

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { FaChartLine, FaHandshake, FaGraduationCap } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -60,7 +61,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="meba-card p-8 text-center">
               <div className="w-16 h-16 bg-gradient-to-br from-[#d4af37] to-[#2d5a47] rounded-full flex items-center justify-center mx-auto mb-6">
-                <span className="text-2xl">📈</span>
+                <FaChartLine className="text-4xl text-white" />
               </div>
               <h3 className="text-xl font-bold text-[#1a4d3a] mb-4">Market Analysis</h3>
               <p className="text-gray-600 font-garamond text-lg">
@@ -70,7 +71,7 @@ export default function Home() {
             
             <div className="meba-card p-8 text-center">
               <div className="w-16 h-16 bg-gradient-to-br from-[#d4af37] to-[#2d5a47] rounded-full flex items-center justify-center mx-auto mb-6">
-                <span className="text-2xl">🤝</span>
+                <FaHandshake className="text-4xl text-white" />
               </div>
               <h3 className="text-xl font-bold text-[#1a4d3a] mb-4">Networking</h3>
               <p className="text-gray-600 font-garamond text-lg">
@@ -80,7 +81,7 @@ export default function Home() {
             
             <div className="meba-card p-8 text-center">
               <div className="w-16 h-16 bg-gradient-to-br from-[#d4af37] to-[#2d5a47] rounded-full flex items-center justify-center mx-auto mb-6">
-                <span className="text-2xl">🎓</span>
+                <FaGraduationCap className="text-4xl text-white" />
               </div>
               <h3 className="text-xl font-bold text-[#1a4d3a] mb-4">Education</h3>
               <p className="text-gray-600 font-garamond text-lg">
@@ -101,7 +102,7 @@ export default function Home() {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-8 justify-center">
             <div className="meba-card p-6">
               <div className="flex items-center mb-4">
                 <div className="w-12 h-12 bg-[#d4af37] rounded-lg flex items-center justify-center mr-4">
@@ -116,20 +117,10 @@ export default function Home() {
               <p className="text-gray-600 text-sm mb-4">12:30 PM at UC-19</p>
             </div>
             
-            <div className="meba-card p-6">
-              <div className="flex items-center mb-4">
-                <div className="w-12 h-12 bg-[#d4af37] rounded-lg flex items-center justify-center mr-4">
-                  <span className="text-[#1a4d3a] font-bold">24</span>
-                </div>
-                <div>
-                  <p className="text-sm text-[#2d5a47] font-medium">September</p>
-                  <p className="text-lg font-bold text-[#1a4d3a]">Info Session</p>
-                </div>
-              </div>
-              <h3 className="font-semibold text-[#1a4d3a] mb-2">Overview of the Investment Team</h3>
-              <p className="text-gray-600 text-sm mb-4">12:30 PM at LC-21</p>
-            </div>
+
+            
           </div>
+
         </div>
       </section>
 
