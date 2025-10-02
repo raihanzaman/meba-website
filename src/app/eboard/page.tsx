@@ -68,11 +68,6 @@ export default function eboard() {
               imageSrc="/senna.jpg"
             />
             <Card
-              name="Asim Abdullah"
-              title="Director of Events"
-              imageSrc="/asim.jpg"
-            />
-            <Card
               name="Humza Anwar"
               title="Senior Advisor"
               imageSrc="/humza.jpg"

@@ -32,7 +32,7 @@ export default function Programs() {
                             <p className="text-lg text-gray-600 mb-8 leading-relaxed font-garamond">
                             The Investment Team Program offers a structured, hands-on experience in finance and Middle Eastern markets through eight weeks of interactive workshops, guest-led discussions, and practical assignments. Covering topics such as business and finance careers, networking, accounting, valuation, economics, and fixed income/derivatives, members complete curated readings and case-based deliverables. These include
                             DCF models, comparative analyses, and trading strategy pitches—while developing technical skills, industry knowledge, and regional market insights.
-                            <br /><br /> Applications open Sunday, September 21.
+                            <br /><br /> Applications closed.
                             </p>
                             <div className="space-y-4">
                                 <div className="flex items-start space-x-3">
