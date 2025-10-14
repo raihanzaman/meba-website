@@ -104,17 +104,20 @@ export default function Home() {
           
           <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-8 justify-center">
             <div className="meba-card p-6">
-              {/*<div className="flex items-center mb-4">
+              <div className="flex items-center mb-4">
                 <div className="w-12 h-12 bg-[#d4af37] rounded-lg flex items-center justify-center mr-4">
-                  <span className="text-[#1a4d3a] font-bold">18</span>
+                  <span className="text-[#1a4d3a] font-bold">15</span>
                 </div>
                 <div>
-                  <p className="text-sm text-[#2d5a47] font-medium">September</p>
+                  <p className="text-sm text-[#2d5a47] font-medium">October</p>
                   <p className="text-lg font-bold text-[#1a4d3a]">General Meeting</p>
                 </div>
               </div>
-              <h3 className="font-semibold text-[#1a4d3a] mb-2">Introduction to MEBA & E-Board</h3>
-              <p className="text-gray-600 text-sm mb-4">12:30 PM at UC-19</p>*/}
+              <h3 className="font-semibold text-[#1a4d3a] mb-2">Middle East Market Updates</h3>
+              <p className="text-gray-600 text-sm mb-4">12:30 PM at KMC 3-60</p>
+            </div>
+
+              {/* 
               <div className="flex items-center mb-4">
                 <div className="w-12 h-12 bg-[#d4af37] rounded-lg flex items-center justify-center mr-4">
                   <span className="text-[#1a4d3a] font-bold">TBD</span>
@@ -127,8 +130,7 @@ export default function Home() {
               <h3 className="font-semibold text-[#1a4d3a] mb-2">TBD</h3>
               <p className="text-gray-600 text-sm mb-4">TBD</p>
             </div>
-            
-
+            */}
             
           </div>
 
