@@ -106,10 +106,10 @@ export default function Home() {
             <div className="meba-card p-6">
               <div className="flex items-center mb-4">
                 <div className="w-12 h-12 bg-[#d4af37] rounded-lg flex items-center justify-center mr-4">
-                  <span className="text-[#1a4d3a] font-bold">15</span>
+                  <span className="text-[#1a4d3a] font-bold">19</span>
                 </div>
                 <div>
-                  <p className="text-sm text-[#2d5a47] font-medium">October</p>
+                  <p className="text-sm text-[#2d5a47] font-medium">November</p>
                   <p className="text-lg font-bold text-[#1a4d3a]">General Meeting</p>
                 </div>
               </div>
