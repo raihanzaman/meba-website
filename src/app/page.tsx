@@ -106,15 +106,15 @@ export default function Home() {
             <div className="meba-card p-6">
               <div className="flex items-center mb-4">
                 <div className="w-12 h-12 bg-[#d4af37] rounded-lg flex items-center justify-center mr-4">
-                  <span className="text-[#1a4d3a] font-bold">19</span>
+                  <span className="text-[#1a4d3a] font-bold">-</span>
                 </div>
                 <div>
-                  <p className="text-sm text-[#2d5a47] font-medium">November</p>
-                  <p className="text-lg font-bold text-[#1a4d3a]">General Meeting</p>
+                  <p className="text-sm text-[#2d5a47] font-medium">-</p>
+                  <p className="text-lg font-bold text-[#1a4d3a]">-</p>
                 </div>
               </div>
-              <h3 className="font-semibold text-[#1a4d3a] mb-2">Middle East Market Updates</h3>
-              <p className="text-gray-600 text-sm mb-4">12:30 PM at KMC 3-60</p>
+              <h3 className="font-semibold text-[#1a4d3a] mb-2">-</h3>
+              <p className="text-gray-600 text-sm mb-4">-</p>
             </div>
 
               {/* 

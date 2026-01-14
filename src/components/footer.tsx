@@ -72,7 +72,7 @@ export default function Footer() {
         
         <div className="border-t border-[#2d5a47] mt-8 pt-8 text-center">
           <p className="text-[#f5f1e8]/60 text-sm">
-            © 2025 Middle East Business Association. All rights reserved.
+            © 2026 Middle East Business Association. All rights reserved.
           </p>
         </div>
       </div>
