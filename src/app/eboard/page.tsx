@@ -49,28 +49,53 @@ export default function eboard() {
             />
             <Card
               name="Bryce Clancy"
-              title="Director of Marketing"
+              title="Treasurer"
               imageSrc="/bryce.jpg"
             />
             <Card
               name="Toan Cao"
-              title="Director of Marketing"
+              title="Secretary"
               imageSrc="/toan.jpg"
             />
             <Card
               name="Saami Ali"
-              title="Investment Team Leader"
+              title="Director of Investment Team"
               imageSrc="/saami.jpg"
             />
             <Card
-              name="Senna Abraham"
-              title="Director of Events"
-              imageSrc="/senna.jpg"
+              name="Hannah Shahidi"
+              title="Director of Marketing"
+              imageSrc=""
             />
             <Card
-              name="Humza Anwar"
+              name="Cindy Luo"
+              title="Director of Marketing"
+              imageSrc=""
+            />
+            <Card
+              name="Vedanti Gupta"
+              title="Director of Events"
+              imageSrc=""
+            />
+            <Card
+              name="Mariam Grigoryan"
+              title="Director of Events"
+              imageSrc=""
+            />
+            <Card
+              name="Coby Lin"
+              title="Assistant Director of Investment Team"
+              imageSrc=""
+            />
+            <Card
+              name="Ethan Lai"
+              title="Assistant Director of Investment Team"
+              imageSrc=""
+            />
+            <Card
+              name="Rami Awad"
               title="Senior Advisor"
-              imageSrc="/humza.jpg"
+              imageSrc=""
             />
           </div>
         </div>

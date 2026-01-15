@@ -30,8 +30,8 @@ export default function Programs() {
                                 Investment Analysis Program
                             </h2>
                             <p className="text-lg text-gray-600 mb-8 leading-relaxed font-garamond">
-                            The Investment Team Program offers a structured, hands-on experience in finance and Middle Eastern markets through eight weeks of interactive workshops, guest-led discussions, and practical assignments. Covering topics such as business and finance careers, networking, accounting, valuation, economics, and fixed income/derivatives, members complete curated readings and case-based deliverables. These include
-                            DCF models, comparative analyses, and trading strategy pitches—while developing technical skills, industry knowledge, and regional market insights.
+                                The program prepares students for careers in finance by teaching core technical skills in accounting and valuation through 10 structured weekly workshops, culminating in a final stock pitch supported by DCF analysis and related valuation work.
+                                In addition, participants gain exposure to asset classes beyond equities as well as professional development in resumes building, networking workshops, and interview preparation.
                             <br /><br /> Applications closed.
                             </p>
                             <div className="space-y-4">
