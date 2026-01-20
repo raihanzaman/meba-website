@@ -7,7 +7,7 @@ export default function Programs() {
             <section className="meba-gradient py-20">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                     <h1 className="text-5xl lg:text-6xl font-bold text-white mb-6 font-serif">
-                        MEBA <span className="text-[#d4af37] font-serif">Programs</span>
+                        <span className="text-[#d4af37] font-serif">MEBA</span> Programs
                     </h1>
                     <p className="text-xl text-white/90 max-w-3xl mx-auto leading-relaxed font-garamond">
                         Discover our comprehensive programs designed to deepen your understanding 

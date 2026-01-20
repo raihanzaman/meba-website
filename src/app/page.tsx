@@ -93,7 +93,7 @@ export default function Home() {
       </section>
 
       {/* Events Section */}
-      <section className="meba-gradient py-20 ">
+      <section className="meba-gradient py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-white mb-6">Upcoming Events</h2>
@@ -106,15 +106,29 @@ export default function Home() {
             <div className="meba-card p-6">
               <div className="flex items-center mb-4">
                 <div className="w-12 h-12 bg-[#d4af37] rounded-lg flex items-center justify-center mr-4">
-                  <span className="text-[#1a4d3a] font-bold">-</span>
+                  <span className="text-[#1a4d3a] font-bold">22</span>
                 </div>
                 <div>
-                  <p className="text-sm text-[#2d5a47] font-medium">-</p>
-                  <p className="text-lg font-bold text-[#1a4d3a]">-</p>
+                  <p className="text-sm text-[#2d5a47] font-medium">January</p>
+                  <p className="text-lg font-bold text-[#1a4d3a]">Stern Spotlight</p>
                 </div>
               </div>
-              <h3 className="font-semibold text-[#1a4d3a] mb-2">-</h3>
-              <p className="text-gray-600 text-sm mb-4">-</p>
+              <h3 className="font-semibold text-[#1a4d3a] mb-2">Room: T-201</h3>
+              <p className="text-gray-600 text-sm mb-4">Come to the Stern Spotlight event to learn more about MEBA!</p>
+            </div>
+
+            <div className="meba-card p-6">
+              <div className="flex items-center mb-4">
+                <div className="w-12 h-12 bg-[#d4af37] rounded-lg flex items-center justify-center mr-4">
+                  <span className="text-[#1a4d3a] font-bold">28</span>
+                </div>
+                <div>
+                  <p className="text-sm text-[#2d5a47] font-medium">January</p>
+                  <p className="text-lg font-bold text-[#1a4d3a]">Social Kickoff</p>
+                </div>
+              </div>
+              <h3 className="font-semibold text-[#1a4d3a] mb-2">Room: UC-21</h3>
+              <p className="text-gray-600 text-sm mb-4">Come to our social kickoff to meet our E-Board and get some lunch!</p>
             </div>
 
               {/* 
@@ -127,7 +141,7 @@ export default function Home() {
                   <p className="text-lg font-bold text-[#1a4d3a]">General Meeting</p>
                 </div>
               </div>
-              <h3 className="font-semibold text-[#1a4d3a] mb-2">TBD</h3>
+              <h3 className="font-semibold text-[#1a4d3a] mb-2">Room</h3>
               <p className="text-gray-600 text-sm mb-4">TBD</p>
             </div>
             */}

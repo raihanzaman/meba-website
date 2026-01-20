@@ -14,7 +14,7 @@ export default function eboard() {
             Middle Eastern business markets at NYU.`}
           </p>
           <a 
-            href="https://forms.gle/x6EfjSFPr5tTtgAEA"
+            href=""
             target="_blank"
             rel="noopener noreferrer"
             className="bg-[#d4af37] text-[#1a4d3a] font-semibold px-8 py-4 rounded-lg hover:bg-[#d4af37] transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1 text-center inline-block"
