@@ -25,11 +25,11 @@ export default function Programs() {
                         <div className="order-2 lg:order-1">
                             <div className="mb-6">
                                 <span className="bg-[#d4af37] text-[#1a4d3a] px-4 py-2 rounded-full text-sm font-semibold">
-                                    INVESTMENT TEAM
+                                    OUR FLAGSHIP PROGRAM
                                 </span>
                             </div>
                             <h2 className="text-4xl font-bold text-[#1a4d3a] mb-6">
-                                Investment Analysis Program
+                                Investment Team
                             </h2>
                             <p className="text-lg text-gray-600 mb-8 leading-relaxed font-garamond">
                                 The program prepares students for careers in finance by teaching core technical skills in accounting and valuation through 10 structured weekly workshops, culminating in a final stock pitch supported by DCF analysis and related valuation work.
