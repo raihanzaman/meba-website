@@ -14,7 +14,7 @@ export default function eboard() {
             Middle Eastern business markets at NYU.`}
           </p>
           <a 
-            href=""
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfYKxuG-8kbpqowmrufDXbPVLjpOvOxmxDWeI7E0pR1npzIEw/viewform"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-[#d4af37] text-[#1a4d3a] font-semibold px-8 py-4 rounded-lg hover:bg-[#d4af37] transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1 text-center inline-block"
@@ -65,37 +65,37 @@ export default function eboard() {
             <Card
               name="Hannah Shahidi"
               title="Director of Marketing"
-              imageSrc=""
+              imageSrc="/hannah.jpg"
             />
             <Card
               name="Cindy Luo"
               title="Director of Marketing"
-              imageSrc=""
+              imageSrc="/cindy.jpg"
             />
             <Card
               name="Vedanti Gupta"
               title="Director of Events"
-              imageSrc=""
+              imageSrc="/vedanti.jpg"
             />
             <Card
               name="Mariam Grigoryan"
               title="Director of Events"
-              imageSrc=""
+              imageSrc="/mariam.jpg"
             />
             <Card
               name="Coby Lin"
               title="Assistant Director of Investment Team"
-              imageSrc=""
+              imageSrc="/coby.jpg"
             />
             <Card
               name="Ethan Lai"
               title="Assistant Director of Investment Team"
-              imageSrc=""
+              imageSrc="/ethan.jpg"
             />
             <Card
               name="Rami Awad"
               title="Senior Advisor"
-              imageSrc=""
+              imageSrc="/rami.jpg"
             />
           </div>
         </div>

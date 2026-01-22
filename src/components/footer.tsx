@@ -41,6 +41,14 @@ export default function Footer() {
               >
                 Newsletter
               </a>
+              <a 
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfYKxuG-8kbpqowmrufDXbPVLjpOvOxmxDWeI7E0pR1npzIEw/viewform" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-[#f5f1e8]/80 hover:text-[#d4af37] transition-colors duration-300"
+              >
+                Coffee Chat
+              </a>
             </div>
           </div>
 

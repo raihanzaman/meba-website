@@ -1,3 +1,4 @@
+import { Boldonse } from "next/font/google";
 import Image from "next/image";
 
 export default function Programs() {
@@ -32,7 +33,7 @@ export default function Programs() {
                             <p className="text-lg text-gray-600 mb-8 leading-relaxed font-garamond">
                                 The program prepares students for careers in finance by teaching core technical skills in accounting and valuation through 10 structured weekly workshops, culminating in a final stock pitch supported by DCF analysis and related valuation work.
                                 In addition, participants gain exposure to asset classes beyond equities as well as professional development in resumes building, networking workshops, and interview preparation.
-                            <br /><br /> Applications closed.
+                            <br /><br /> Applications open <b>January 28th</b>.
                             </p>
                             <div className="space-y-4">
                                 <div className="flex items-start space-x-3">
@@ -51,14 +52,14 @@ export default function Programs() {
                                     <div className="w-6 h-6 bg-[#d4af37] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                                         <span className="text-[#1a4d3a] text-sm font-bold">✓</span>
                                     </div>
-                                    <p className="text-lg text-gray-600 font-garamond">Develop and pitch investment strategies across multiple asset classes</p>
+                                    <p className="text-lg text-gray-600 font-garamond">Connect with financial professionals to learn more about recruiting</p>
                                 </div>
                             </div>
                         </div>
                         <div className="order-1 lg:order-2">
-                            <div className="meba-card p-8">
+                            <div className="meba-card">
                                 <div className="aspect-video bg-gradient-to-br from-[#d4af37] to-[#2d5a47] rounded-xl flex items-center justify-center mb-6">
-                                    <Image src="/middle-east3.jpg" alt="MEBA Logo" width={1300} height={867} />
+                                    <Image src="/gs-1.jpg" alt="MEBA Logo" width={1300} height={867} />
                                 </div>
                             </div>
                         </div>
@@ -81,10 +82,10 @@ export default function Programs() {
                             <div className="w-16 h-16 bg-gradient-to-br from-[#d4af37] to-[#2d5a47] rounded-full flex items-center justify-center mx-auto mb-6">
                                 <span className="text-2xl">🎓</span>
                             </div>
-                            <h3 className="text-xl font-bold text-[#1a4d3a] mb-4">Educational Workshops</h3>
+                            <h3 className="text-xl font-bold text-[#1a4d3a] mb-4">General Meetings</h3>
                             <p className="text-gray-600 mb-6 font-garamond text-lg">
-                                Interactive sessions covering Middle Eastern business practices, 
-                                cultural insights, and market dynamics.
+                                We host bi-weekly general meetings to help teach members more about
+                                current Middle Eastern market trends and learn from industry professionals.
                             </p>
                         </div>
                         

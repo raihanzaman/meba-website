@@ -27,7 +27,7 @@ export default function Home() {
                   Explore Programs
                 </a>
                 <a 
-                  href="https://forms.gle/x6EfjSFPr5tTtgAEA"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSfYKxuG-8kbpqowmrufDXbPVLjpOvOxmxDWeI7E0pR1npzIEw/viewform"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="border-2 border-white text-white font-semibold px-8 py-4 rounded-lg hover:bg-white hover:text-[#1a4d3a] transition-all duration-300 text-center"
@@ -38,8 +38,8 @@ export default function Home() {
             </div>
             <div className="relative">
               <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
-                <div className="aspect-square bg-gradient-to-br from-[#d4af37] to-[#2d5a47] rounded-xl flex items-center justify-center">
-                  <Image src="/meba-full.jpg" alt="MEBA Logo" width={2560} height={1707} />
+                <div className="aspect-square bg-gradient-to-br from-[#d4af37] to-[#2d5a47] rounded-xl overflow-hidden relative">
+                  <Image src="/meba-group-1.JPG" alt="" fill className="object-cover" />
                 </div>
               </div>
             </div>
