@@ -1,5 +1,6 @@
 import { Boldonse } from "next/font/google";
 import Image from "next/image";
+import { FaGraduationCap, FaHandshake, FaGlobe } from "react-icons/fa";
 
 export default function Programs() {
     return (
@@ -80,7 +81,7 @@ export default function Programs() {
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         <div className="meba-card p-8 text-center">
                             <div className="w-16 h-16 bg-gradient-to-br from-[#d4af37] to-[#2d5a47] rounded-full flex items-center justify-center mx-auto mb-6">
-                                <span className="text-2xl">🎓</span>
+                                <FaGraduationCap className="text-4xl text-white" />
                             </div>
                             <h3 className="text-xl font-bold text-[#1a4d3a] mb-4">General Meetings</h3>
                             <p className="text-gray-600 mb-6 font-garamond text-lg">
@@ -91,7 +92,7 @@ export default function Programs() {
                         
                         <div className="meba-card p-8 text-center">
                             <div className="w-16 h-16 bg-gradient-to-br from-[#d4af37] to-[#2d5a47] rounded-full flex items-center justify-center mx-auto mb-6">
-                                <span className="text-2xl">🤝</span>
+                                <FaHandshake className="text-4xl text-white" />
                             </div>
                             <h3 className="text-xl font-bold text-[#1a4d3a] mb-4">Networking Events</h3>
                             <p className="text-gray-600 mb-6 font-garamond text-lg">
@@ -102,7 +103,7 @@ export default function Programs() {
                         
                         <div className="meba-card p-8 text-center">
                             <div className="w-16 h-16 bg-gradient-to-br from-[#d4af37] to-[#2d5a47] rounded-full flex items-center justify-center mx-auto mb-6">
-                                <span className="text-2xl">🌍</span>
+                                <FaGlobe className="text-4xl text-white" />
                             </div>
                             <h3 className="text-xl font-bold text-[#1a4d3a] mb-4">Social Events</h3>
                             <p className="text-gray-600 mb-6 font-garamond text-lg">
