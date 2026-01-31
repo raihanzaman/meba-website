@@ -35,17 +35,9 @@ export default function Programs() {
                             <p className="text-lg text-gray-600 mb-8 leading-relaxed font-garamond">
                                 The program prepares students for careers in finance by teaching core technical skills in accounting and valuation through 10 structured weekly workshops, culminating in a final stock pitch supported by DCF analysis and related valuation work.
                                 In addition, participants gain exposure to asset classes beyond equities as well as professional development in resumes building, networking workshops, and interview preparation.
-                            
+                                <br />Applications open February 8th.
                             </p>
-                            <Link
-                                href="https://docs.google.com/forms/d/e/1FAIpQLSe7-zdT3YzFLP3einIOsxorNeklE0SC2JXyLEd_VXv1XUKdIQ/viewform"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="bg-[#f5f1e8] text-[#1a4d3a] font-semibold px-6 py-2 rounded-lg transition-all duration-300 hover:bg-[#d4af37] hover:shadow-lg transform hover:-translate-y-0.5"
-                                >
-                                Apply Now!
-                            </Link>
-                            <div className="space-y-4 pt-8">
+                            <div className="space-y-4 pt-2">
                                 <div className="flex items-start space-x-3">
                                     <div className="w-6 h-6 bg-[#d4af37] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                                         <span className="text-[#1a4d3a] text-sm font-bold">✓</span>
