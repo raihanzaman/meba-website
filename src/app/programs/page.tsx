@@ -32,11 +32,18 @@ export default function Programs() {
                             <h2 className="text-4xl font-bold text-[#1a4d3a] mb-6">
                                 Investment Team
                             </h2>
-                            <p className="text-lg text-gray-600 mb-8 leading-relaxed font-garamond">
+                            <p className="text-lg text-gray-600 mb-4 leading-relaxed font-garamond">
                                 The program prepares students for careers in finance by teaching core technical skills in accounting and valuation through 10 structured weekly workshops, culminating in a final stock pitch supported by DCF analysis and related valuation work.
                                 In addition, participants gain exposure to asset classes beyond equities as well as professional development in resumes building, networking workshops, and interview preparation.
-                                <br />Applications open February 8th.
                             </p>
+                            <a 
+                                href="https://docs.google.com/forms/d/e/1FAIpQLSe7-zdT3YzFLP3einIOsxorNeklE0SC2JXyLEd_VXv1XUKdIQ/viewform"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="bg-[#d4af37] text-[#1a4d3a] font-semibold px-8 py-4 mb-4 rounded-lg hover:bg-[#d4af37] transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1 text-center inline-block"
+                            >
+                                Apply Now!
+                            </a>
                             <div className="space-y-4 pt-2">
                                 <div className="flex items-start space-x-3">
                                     <div className="w-6 h-6 bg-[#d4af37] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
