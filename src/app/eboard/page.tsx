@@ -10,8 +10,7 @@ export default function eboard() {
             MEBA <span className="text-[#d4af37] font-serif">E-Board</span>
           </h1>
           <p className="text-xl text-white/90 max-w-3xl mx-auto leading-relaxed mb-6 font-garamond">
-            {`Meet the dedicated leaders who drive MEBA's mission to explore and understand 
-            Middle Eastern business markets at NYU.`}
+            {`Meet the dedicated leaders who drive MEBA's mission to explore and understand Middle Eastern business markets at NYU.`}
           </p>
           <a 
             href="https://docs.google.com/forms/d/e/1FAIpQLSfYKxuG-8kbpqowmrufDXbPVLjpOvOxmxDWeI7E0pR1npzIEw/viewform"
@@ -31,71 +30,71 @@ export default function eboard() {
             <h2 className="text-4xl font-bold text-[#1a4d3a] mb-6">Our Leadership Team</h2>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-items-center">
             <Card
               name="Issa Taha"
               title="President"
-              imageSrc="/issa.jpg"
+              imageSrc="/Issa.jpg"
             />
             <Card
               name="Nihar Guha"
               title="Vice President"
-              imageSrc="/nihar.jpg"
+              imageSrc="/Nihar.jpg"
             />
             <Card
               name="Raihan Zaman"
               title="Director of Technology"
-              imageSrc="/raihan.jpg"
-            />
-            <Card
-              name="Bryce Clancy"
-              title="Treasurer"
-              imageSrc="/bryce.jpg"
-            />
-            <Card
-              name="Toan Cao"
-              title="Secretary"
-              imageSrc="/toan.jpg"
+              imageSrc="/Raihan.jpg"
             />
             <Card
               name="Saami Ali"
               title="Director of Investment Team"
-              imageSrc="/saami.jpg"
+              imageSrc="/Saami.jpg"
+            />
+            <Card
+              name="Bryce Clancy"
+              title="Treasurer"
+              imageSrc="/Bryce.jpg"
+            />
+            <Card
+              name="Toan Cao"
+              title="Secretary"
+              imageSrc="/Toan1.jpg"
             />
             <Card
               name="Hannah Shahidi"
               title="Director of Marketing"
-              imageSrc="/hannah.jpg"
+              imageSrc="/Hannah.jpg"
             />
             <Card
               name="Cindy Luo"
               title="Director of Marketing"
-              imageSrc="/cindy.jpg"
+              imageSrc="/Cindy.jpg"
             />
             <Card
               name="Vedanti Gupta"
               title="Director of Events"
-              imageSrc="/vedanti.jpg"
+              imageSrc="/Vedanti.jpg"
             />
             <Card
               name="Mariam Grigoryan"
               title="Director of Events"
-              imageSrc="/mariam.jpg"
+              imageSrc="/Mariam.jpg"
             />
             <Card
               name="Coby Lin"
               title="Assistant Director of Investment Team"
-              imageSrc="/coby.jpg"
+              imageSrc="/Coby.jpg"
             />
             <Card
               name="Ethan Lai"
               title="Assistant Director of Investment Team"
-              imageSrc="/ethan.jpg"
+              imageSrc="/Ethan.jpg"
             />
             <Card
               name="Rami Awad"
               title="Senior Advisor"
-              imageSrc="/rami.jpg"
+              imageSrc="/Rami.jpg"
             />
           </div>
         </div>
