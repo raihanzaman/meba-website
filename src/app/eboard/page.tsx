@@ -39,7 +39,7 @@ export default function eboard() {
             <Card
               name="Nihar Guha"
               title="Vice President"
-              imageSrc="/Nihar.jpg"
+              imageSrc="/Nihar1.jpg"
             />
             <Card
               name="Raihan Zaman"
