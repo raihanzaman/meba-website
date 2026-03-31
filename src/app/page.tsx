@@ -106,29 +106,15 @@ export default function Home() {
             <div className="meba-card p-6">
               <div className="flex items-center mb-4">
                 <div className="w-12 h-12 bg-[#d4af37] rounded-lg flex items-center justify-center mr-4">
-                  <span className="text-[#1a4d3a] font-bold">22</span>
+                  <span className="text-[#1a4d3a] font-bold">1</span>
                 </div>
                 <div>
-                  <p className="text-sm text-[#2d5a47] font-medium">January</p>
-                  <p className="text-lg font-bold text-[#1a4d3a]">Stern Spotlight</p>
-                </div>
-              </div>
-              <h3 className="font-semibold text-[#1a4d3a] mb-2">Room: T-201</h3>
-              <p className="text-gray-600 text-sm mb-4">Come to the Stern Spotlight event to learn more about MEBA!</p>
-            </div>
-
-            <div className="meba-card p-6">
-              <div className="flex items-center mb-4">
-                <div className="w-12 h-12 bg-[#d4af37] rounded-lg flex items-center justify-center mr-4">
-                  <span className="text-[#1a4d3a] font-bold">28</span>
-                </div>
-                <div>
-                  <p className="text-sm text-[#2d5a47] font-medium">January</p>
-                  <p className="text-lg font-bold text-[#1a4d3a]">Social Kickoff</p>
+                  <p className="text-sm text-[#2d5a47] font-medium">April</p>
+                  <p className="text-lg font-bold text-[#1a4d3a]">Market Update</p>
                 </div>
               </div>
               <h3 className="font-semibold text-[#1a4d3a] mb-2">Room: UC-21</h3>
-              <p className="text-gray-600 text-sm mb-4">Come to our social kickoff to meet our E-Board and get some lunch!</p>
+              <p className="text-gray-600 text-sm mb-4">Join us for a market update this Wednesday, there will be food!</p>
             </div>
 
               {/* 
