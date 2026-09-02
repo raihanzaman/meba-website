@@ -47,19 +47,24 @@ export default function eboard() {
               imageSrc="/Raihan.jpg"
             />
             <Card
-              name="Saami Ali"
+              name="Coby Lin"
               title="Director of Investment Team"
-              imageSrc="/Saami.jpg"
+              imageSrc="/Coby.jpg"
             />
             <Card
-              name="Bryce Clancy"
+              name="Ethan Lai"
+              title="Director of Investment Team"
+              imageSrc="/Ethan.jpg"
+            />
+            <Card
+              name="Arjun Arora"
               title="Treasurer"
-              imageSrc="/Bryce.jpg"
+              imageSrc=""
             />
             <Card
-              name="Toan Cao"
+              name="Surya Takawale"
               title="Secretary"
-              imageSrc="/Toan1.jpg"
+              imageSrc=""
             />
             <Card
               name="Hannah Shahidi"
@@ -77,24 +82,24 @@ export default function eboard() {
               imageSrc="/Vedanti.jpg"
             />
             <Card
-              name="Mariam Grigoryan"
+              name="Adam Mansour"
               title="Director of Events"
-              imageSrc="/Mariam.jpg"
+              imageSrc=""
             />
             <Card
-              name="Coby Lin"
+              name="Rifat Meer"
+              title="Director of Outreach"
+              imageSrc=""
+            />
+            <Card
+              name="Omar Khan"
               title="Assistant Director of Investment Team"
-              imageSrc="/Coby.jpg"
+              imageSrc=""
             />
             <Card
-              name="Ethan Lai"
+              name="Zayaan Atif"
               title="Assistant Director of Investment Team"
-              imageSrc="/Ethan.jpg"
-            />
-            <Card
-              name="Rami Awad"
-              title="Senior Advisor"
-              imageSrc="/Rami.jpg"
+              imageSrc=""
             />
           </div>
         </div>
