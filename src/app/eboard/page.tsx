@@ -59,12 +59,7 @@ export default function eboard() {
             <Card
               name="Arjun Arora"
               title="Treasurer"
-              imageSrc=""
-            />
-            <Card
-              name="Surya Takawale"
-              title="Secretary"
-              imageSrc=""
+              imageSrc="/Arjun.png"
             />
             <Card
               name="Hannah Shahidi"
@@ -84,22 +79,22 @@ export default function eboard() {
             <Card
               name="Adam Mansour"
               title="Director of Events"
-              imageSrc=""
+              imageSrc="/Adam.jpg"
             />
             <Card
               name="Rifat Meer"
               title="Director of Outreach"
-              imageSrc=""
+              imageSrc="/Rifat.jpg"
             />
             <Card
               name="Omar Khan"
               title="Assistant Director of Investment Team"
-              imageSrc=""
+              imageSrc="/Omar.jpg"
             />
             <Card
               name="Zayaan Atif"
               title="Assistant Director of Investment Team"
-              imageSrc=""
+              imageSrc="/Zayaan.jpg"
             />
           </div>
         </div>
