@@ -13,7 +13,7 @@ export default function eboard() {
             {`Meet the dedicated leaders who drive MEBA's mission to explore and understand Middle Eastern business markets at NYU.`}
           </p>
           <a 
-            href="https://docs.google.com/forms/d/e/1FAIpQLSfYKxuG-8kbpqowmrufDXbPVLjpOvOxmxDWeI7E0pR1npzIEw/viewform"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeg79fTsmH9MOeVBntbWBQ9jCWF_xRhKbMu5_pMDOPHaYaC1Q/viewform"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-[#d4af37] text-[#1a4d3a] font-semibold px-8 py-4 rounded-lg hover:bg-[#d4af37] transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1 text-center inline-block"
