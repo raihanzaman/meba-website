@@ -96,6 +96,11 @@ export default function eboard() {
               title="Assistant Director of Investment Team"
               imageSrc="/Zayaan.jpg"
             />
+            <Card
+              name="Bryce Clancy"
+              title="Senior Advisor"
+              imageSrc="/Bryce.jpg"
+            />
           </div>
         </div>
       </section>
