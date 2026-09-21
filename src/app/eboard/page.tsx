@@ -42,6 +42,16 @@ export default function eboard() {
               imageSrc="/Nihar1.jpg"
             />
             <Card
+              name="Rifat Meer"
+              title="Secretary"
+              imageSrc="/Rifat.jpg"
+            />
+            <Card
+              name="Arjun Arora"
+              title="Treasurer"
+              imageSrc="/Arjun.png"
+            />
+            <Card
               name="Raihan Zaman"
               title="Director of Technology"
               imageSrc="/Raihan.jpg"
@@ -55,11 +65,6 @@ export default function eboard() {
               name="Ethan Lai"
               title="Director of Investment Team"
               imageSrc="/Ethan.jpg"
-            />
-            <Card
-              name="Arjun Arora"
-              title="Treasurer"
-              imageSrc="/Arjun.png"
             />
             <Card
               name="Hannah Shahidi"
@@ -80,11 +85,6 @@ export default function eboard() {
               name="Adam Mansour"
               title="Director of Events"
               imageSrc="/Adam.jpg"
-            />
-            <Card
-              name="Rifat Meer"
-              title="Director of Outreach"
-              imageSrc="/Rifat.jpg"
             />
             <Card
               name="Omar Khan"

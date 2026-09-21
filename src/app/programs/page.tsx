@@ -37,12 +37,12 @@ export default function Programs() {
                                 In addition, participants gain exposure to asset classes beyond equities as well as professional development in resumes building, networking workshops, and interview preparation.
                             </p>
                             <a 
-                                //href=""
+                                href="https://nyustern.formstack.com/forms/club_application_portal"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="bg-[#d4af37] text-[#1a4d3a] font-semibold px-8 py-4 mb-4 rounded-lg hover:bg-[#d4af37] transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1 text-center inline-block"
                             >
-                                Applications Closed
+                                Apps Close 9/26
                             </a>
                             <div className="space-y-4 pt-2">
                                 <div className="flex items-start space-x-3">
