@@ -97,6 +97,11 @@ export default function eboard() {
               imageSrc="/Zayaan.jpg"
             />
             <Card
+              name="Rami"
+              title="Senior Advisor"
+              imageSrc="/Rami.JPG"
+            />
+            <Card
               name="Bryce Clancy"
               title="Senior Advisor"
               imageSrc="/Bryce.jpg"
